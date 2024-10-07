@@ -1,0 +1,33 @@
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    border-color: rgb(251, 255, 0); /* Change border color on hover */
+    border-width: 5px;
+}
+
+.fekete-border{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.szurke-border{
+  border: 1px solid grey;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+
+#cpar, #ccar, #cear{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
