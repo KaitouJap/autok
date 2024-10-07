@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autok</title>
+  <script type="module" crossorigin src="/assets/index-D4Yuq9S9.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-i0LBfMbq.css">
+</head>
+
+<body style="background-color: rgb(206, 206, 206);">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Camry Comfort</h5>
+            <img class="card-img-top" id="CC-img" src="/assets/exterior-3_040-DI27S5dO.jpg" alt="Card image cap">
+            <div class="container mt-5">
+              <div class="d-flex justify-content-center gap-2">
+                <button id="ccfeherButton" class="btn rounded-circle fekete-border"
+                  style="width: 35px; height: 35px; background-color: #ffffff;" value="0">
+                </button>
+                <button id="ccbarnaButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: hsl(11, 41%, 36%);" value="150000">
+                </button>
+                <button id="cckekButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #1a008d;" value="200000">
+                </button>
+                <button id="ccfeketeButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #000000;" value="250000">
+                </button>
+                <button id="ccpirosButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #ff5733;" value="300000">
+                </button>
+              </div>
+            </div>
+
+            <h5 class="mt-2">Valto tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCvalto" id="CCvalto" value="0" checked>
+              <label class="form-check-label" for="CCvalto">Manualis</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCvalto" id="CCvalto2" value="120000">
+              <label class="form-check-label" for="CCvalto2">Automata <span style="color: red;">(+ 120 000 Ft)</span></label>
+            </div>
+
+            <h5 class="mt-2">Motor Tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCmotor" id="CCmotor" value="0" checked>
+              <label class="form-check-label" for="CCmotor">2.5 L Hybrid</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCmotor" id="CCmotor2" value="500000">
+              <label class="form-check-label" for="CCmotor2">3.0 L Hybrid <span style="color: red;">(+ 500 000 Ft)</span></label>
+            </div>
+            <h5>Gumi Tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCgumi" id="CCgumi" value="0" checked>
+              <label class="form-check-label" for="CCgumi">Nyari</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCgumi" id="CCgumi2" value="25000">
+              <label class="form-check-label" for="CCgumi">Teli <span style="color: red;">(+ 25 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCgumi" id="CCgumi3" value="30000">
+              <label class="form-check-label" for="CCgumi3">Negy evszakos <span style="color: red;">(+ 30 000 Ft)</span></label>
+            </div>
+
+            <h5>Klima</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCKlima" id="CCKlima" value="150000">
+              <label class="form-check-label" for="CCKlima">Kell <span style="color: red;">(+ 150 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCKlima" id="CCKlima2" value="0" checked>
+              <label class="form-check-label" for="CCKlima2">Nem kell</label>
+            </div>
+
+            <h5>Tolato kamera</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCTCam" id="CCTCam" value="50000">
+              <label class="form-check-label" for="CCTCam">Kell <span style="color: red;">(+ 50 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CCTCam" id="CCTCam2" value="0" checked>
+              <label class="form-check-label" for="CCTCam2">Nem kell</label>
+            </div>
+
+            <div class="text-center szurke-border">
+              <p class="mt-2" id="ccar"></p>
+              <a href="#" class="btn btn-primary mb-3">Vasarlas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Camry Executive</h5>
+            <img class="card-img-top" id="CE-img" src="/assets/exterior-3_040-DI27S5dO.jpg" alt="Card image cap">
+            <div class="container mt-5">
+              <div class="d-flex justify-content-center gap-2">
+                <button id="cefeherButton" class="btn rounded-circle fekete-border"
+                  style="width: 35px; height: 35px; background-color: #ffffff;" value="0">
+                </button>
+                <button id="cebarnaButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: hsl(11, 41%, 36%);" value="250000">
+                </button>
+                <button id="cekekButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #1a008d;" value="300000">
+                </button>
+                <button id="cefeketeButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #000000;" value="350000">
+                </button>
+                <button id="cepirosButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #ff5733;" value="400000">
+                </button>
+              </div>
+            </div>
+
+            <h5 class="mt-2">Valto tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEvalto" id="CEvalto" value="0" checked>
+              <label class="form-check-label" for="CEvalto">Manualis</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEvalto" id="CEvalto2" value="120000">
+              <label class="form-check-label" for="CEvalto">Automata <span style="color: red;">(+ 120 000 Ft)</span></label>
+            </div>
+
+            <h5 class="mt-2">Motor Tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEmotor" id="CEmotor" value="0" checked>
+              <label class="form-check-label" for="CEmotor">2.5 L Hybrid</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEmotor" id="CEmotor2" value="500000">
+              <label class="form-check-label" for="CEmotor2">3.0 L Hybrid <span style="color: red;">(+ 500 000 Ft)</span></label>
+            </div>
+            <h5>Gumi Tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEgumi" id="CEgumi" value="0" checked>
+              <label class="form-check-label" for="CEgumi">Nyari</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEgumi" id="CEgumi2" value="25000">
+              <label class="form-check-label" for="CEgumi2">Teli <span style="color: red;">(+ 25 000 Ft)</span></label>
+            </div>
+            
+            <h5>Klima</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEKlima" id="CEKlima" value="150000">
+              <label class="form-check-label" for="CEKlima">Kell <span style="color: red;">(+ 150 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEKlima" id="CEKlima2" value="0" checked>
+              <label class="form-check-label" for="CEKlima2">Nem kell</label>
+            </div>
+
+            <h5>Radio</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CERadio" id="CERadio" value="0" checked>
+              <label class="form-check-label" for="CERadio">JBL</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CERadio" id="CERadio2" value="50000">
+              <label class="form-check-label" for="CERadio2">Pioneer <span style="color: red;">(+ 50 000 Ft)</span></label>
+            </div>
+
+            <h5>Tolato kamera</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CETCam" id="CETCam" value="50000">
+              <label class="form-check-label" for="CETCam">Kell <span style="color: red;">(+ 50 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CETCam" id="CETCam2" value="0" checked>
+              <label class="form-check-label" for="CETCam2">Nem kell</label>
+            </div>
+
+            <h5>Futheto kormanykerek</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEFutheto" id="CEFutheto" value="125000">
+              <label class="form-check-label" for="CEFutheto">Kell <span style="color: red;">(+ 125 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CEFutheto" id="CEFutheto2" value="0" checked>
+              <label class="form-check-label" for="CEFutheto2">Nem kell</label>
+            </div>
+
+            <div class="text-center szurke-border">
+              <p class="mt-2" id="cear"></p>
+              <a href="#" class="btn btn-primary mb-3">Vasarlas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Camry Prestige</h5>
+            <img class="card-img-top" id="CP-img" src="/assets/exterior-3_040-DI27S5dO.jpg" alt="Card image cap">
+            <div class="container mt-5">
+              <div class="d-flex justify-content-center gap-2">
+                <button id="cpfeherButton" class="btn rounded-circle fekete-border"
+                  style="width: 35px; height: 35px; background-color: #ffffff;" value="0">
+                </button>
+                <button id="cpbarnaButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: hsl(11, 41%, 36%);" value="250000">
+                </button>
+                <button id="cpkekButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #1a008d;" value="350000">
+                </button>
+                <button id="cpfeketeButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #000000;" value="400000">
+                </button>
+                <button id="cppirosButton" class="btn rounded-circle"
+                  style="width: 35px; height: 35px; background-color: #ff5733;" value="450000">
+                </button>
+              </div>
+            </div>
+
+            <h5 class="mt-2">Valto tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPvalto" id="CPvalto" value="0" checked>
+              <label class="form-check-label" for="CPvalto">Manualis</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPvalto" id="CPvalto2" value="120000">
+              <label class="form-check-label" for="CPvalto2">Automata <span style="color: red;">(+ 120 000 Ft)</span></label>
+            </div>
+
+            <h5 class="mt-2">Motor Tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPmotor" id="CPmotor" value="0" checked>
+              <label class="form-check-label" for="CPmotor">2.5 L Hybrid</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPmotor" id="CPmotor2" value="500000">
+              <label class="form-check-label" for="CPmotor2">3.0 L Hybrid <span style="color: red;">(+ 500 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPmotor" id="CPmotor3" value="750000">
+              <label class="form-check-label" for="CPmotor3">5.0 L Hybrid <span style="color: red;">(+ 750 000 Ft)</span></label>
+            </div>
+
+            <h5>Gumi Tipusa</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPgumi" id="CPgumi" value="0" checked>
+              <label class="form-check-label" for="CPgumi">Nyari</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPgumi" id="CPgumi2" value="25000">
+              <label class="form-check-label" for="CPgumi2">Teli <span style="color: red;">(+ 25 000 Ft)</span></label>
+            </div>
+
+            <h5>Klima</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPKlima" id="CPKlima" value="150000">
+              <label class="form-check-label" for="CPKlima">Kell <span style="color: red;">(+ 150 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPKlima" id="CPKlima2" value="0" checked>
+              <label class="form-check-label" for="CPKlima2">Nem kell</label>
+            </div>
+
+            <h5>Radio</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPRadio" id="CPRadio" value="0" checked>
+              <label class="form-check-label" for="CPRadio">JBL</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPRadio" id="CPRadio2" value="50000">
+              <label class="form-check-label" for="CPRadio2">Pioneer <span style="color: red;">(+ 50 000 Ft)</span></label>
+            </div>
+
+            <h5>Tolato kamera</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPTCam" id="CPTCam" value="50000">
+              <label class="form-check-label" for="CPTCam">Kell <span style="color: red;">(+ 50 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPTCam" id="CPTCam2" value="0" checked>
+              <label class="form-check-label" for="CPTCam2">Nem kell</label>
+            </div>
+
+            <h5>Meghajtas</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPMHajtas" id="CPMHajtas" value="125000">
+              <label class="form-check-label" for="CPMHajtas">4X4 <span style="color: red;">(+ 125 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPMHajtas" id="CPMHajtas2" value="0" checked>
+              <label class="form-check-label" for="CPMHajtas2">4X2</label>
+            </div>
+
+            <h5>Futheto kormanykerek</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPFutheto" id="CPFutheto" value="125000">
+              <label class="form-check-label" for="CPFutheto">Kell <span style="color: red;">(+ 125 000 Ft)</span></label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CPFutheto" id="CPFutheto2" value="0" checked>
+              <label class="form-check-label" for="CPFutheto2">Nem kell</label>
+            </div>
+
+            <div class="text-center szurke-border">
+              <p class="mt-2" id="cpar"></p>
+              <a href="#" class="btn btn-primary mb-3">Vasarlas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
